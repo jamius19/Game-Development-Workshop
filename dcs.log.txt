@@ -1,0 +1,852 @@
+=== Log opened UTC 2018-09-07 21:50:58
+2018-09-07 21:50:59.240 INFO    DCS: Command line: "bin/DCS.exe"
+2018-09-07 21:50:59.240 INFO    DCS: DCS/2.5.3.21235 (x86_64; Windows NT 10.0.17134)
+2018-09-07 21:50:59.240 INFO    DCS: Hwid: MXQBnZ0dBeq4Jg4jWKUOzAeqgnY-zJEHCIDvlQ
+2018-09-07 21:50:59.240 INFO    DCS: DCS revision: 141234
+2018-09-07 21:50:59.240 INFO    DCS: Renderer revision: 17500
+2018-09-07 21:50:59.240 INFO    DCS: Terrain revision: 17609
+2018-09-07 21:50:59.240 INFO    DCS: CPU cores: 4, threads: 4, System RAM: 14567 MB, Pagefile: 24558 MB
+2018-09-07 21:50:59.265 INFO    EDCORE: (dDispatcher)enterToState_:0
+2018-09-07 21:50:59.270 INFO    Dispatcher: 2018/9/8 03:50 V1803061700
+2018-09-07 21:50:59.296 INFO    INPUT: Device [Keyboard] created deviceId = -1
+2018-09-07 21:50:59.302 INFO    INPUT: Device [Mouse] created deviceId = -1
+2018-09-07 21:50:59.303 INFO    INPUT: Device [TrackIR] created deviceId = -1
+2018-09-07 21:50:59.348 INFO    SOUND: Using driver: xaudio29
+2018-09-07 21:51:01.395 ERROR   SOUND: FindAllAsyncDeviceClass has timed out with: 258
+2018-09-07 21:51:01.395 INFO    SOUND: Found 0 available audio device(s):
+2018-09-07 21:51:01.669 INFO    SOUND: loaded 1308 sdefs from "sounds\sdef"
+2018-09-07 21:51:01.869 INFO    DCS: Loading installed modules...
+2018-09-07 21:51:02.651 INFO    Scripting: OBSOLETE mount_vfs_sound_path() used in ./CoreMods/aircraft/AJS37/entry.lua
+2018-09-07 21:51:02.711 INFO    Scripting: PLUGINS START-------------------------------------------------
+2018-09-07 21:51:02.716 INFO    SOUND: loaded 15 sdefs from ".\coremods\aircraft\av8bna\sounds\sdef"
+2018-09-07 21:51:02.724 INFO    SOUND: loaded 9 sdefs from ".\coremods\aircraft\c-101\sounds\sdef"
+2018-09-07 21:51:02.727 INFO    SOUND: loaded 12 sdefs from ".\coremods\aircraft\chinaassetpack\sounds\sdef"
+2018-09-07 21:51:02.733 INFO    SOUND: loaded 19 sdefs from ".\coremods\aircraft\m-2000c\sounds\sdef"
+2018-09-07 21:51:02.749 INFO    SOUND: loaded 10 sdefs from ".\coremods\aircraft\mig-21bis\sounds\sdef"
+2018-09-07 21:51:02.752 INFO    SOUND: loaded 2 sdefs from ".\coremods\aircraft\sa342\sounds\sdef"
+2018-09-07 21:51:02.755 INFO    Scripting: plugin: SKIPPED 'A-10A by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2018-09-07 21:51:02.755 INFO    Scripting: plugin: SKIPPED 'F-15C': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2018-09-07 21:51:02.755 INFO    Scripting: plugin: SKIPPED 'Su-25A by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2018-09-07 21:51:02.755 INFO    Scripting: plugin: SKIPPED 'Su-27 Flanker by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2018-09-07 21:51:02.755 INFO    Scripting: plugin: SKIPPED 'Su-33 Flanker by Eagle Dynamics': disabled by 'Flaming Cliffs by Eagle Dynamics'
+2018-09-07 21:51:02.757 INFO    Scripting: PLUGINS DONE--------------------------------------------------
+2018-09-07 21:51:02.984 INFO    SECURITYCONTROL: Loaded ./CoreMods/aircraft/AV8BNA/bin/AV8B_AI.dll
+2018-09-07 21:51:02.986 INFO    SECURITYCONTROL: Loaded ./CoreMods/services/CaptoGlove/bin/edCaptoGlove.dll
+2018-09-07 21:51:03.976 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/FC3.dll
+2018-09-07 21:51:03.994 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/A10A.dll
+2018-09-07 21:51:04.102 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/F15.dll
+2018-09-07 21:51:04.370 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/Su27.dll
+2018-09-07 21:51:04.632 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/Flaming Cliffs/bin/Su33.dll
+2018-09-07 21:51:04.635 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/P51Base.dll
+2018-09-07 21:51:04.636 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/TF51D.dll
+2018-09-07 21:51:04.642 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/TF-51D/bin/Cockpit_P51Common.dll
+2018-09-07 21:51:04.785 INFO    SECURITYCONTROL: Loaded ./Mods/aircraft/jsAvionics/bin/jsAvionics.dll
+2018-09-07 21:51:05.084 INFO    DX11BACKEND: Driver Concurrent Creates - 1
+2018-09-07 21:51:05.084 INFO    DX11BACKEND: Driver Command Lists - 1
+2018-09-07 21:51:07.324 INFO    DX11BACKEND: NVIDIA API init OK
+2018-09-07 21:51:07.325 INFO    DX11BACKEND: NVIDIA Display Driver Version 39907.r396_00
+2018-09-07 21:51:07.325 INFO    DX11BACKEND: TRUNK renderer init: showShaderError coreCount=1
+2018-09-07 21:51:07.367 INFO    DX11BACKEND: commonPool: 68-128, cbPool: 5-14, samplerPool: 5-16
+2018-09-07 21:51:07.369 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache Bazar/shaders/fxo/fxo.zip
+2018-09-07 21:51:07.979 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 788/788.
+2018-09-07 21:51:07.979 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache C:\Users\Jamius Siam\Saved Games\DCS\fxo
+2018-09-07 21:51:07.995 INFO    DX11BACKEND: DX11ShaderBinaries::loadCache done. Loaded 72/72.
+2018-09-07 21:51:08.093 WARNING ANIMATOR: Asimp: 3.3
+2018-09-07 21:51:08.093 ERROR   EDCORE: Can't mount bazar/effects/particlesystem2/overwingvapor/. Drivers errors: 
+2018-09-07 21:51:08.093 ERROR   EDCORE: 	FSDriver: there is no directory bazar/effects/particlesystem2/overwingvapor/
+2018-09-07 21:51:08.093 ERROR   EDCORE: 	ZipDriver: Can't open zip archive bazar/effects/particlesystem2/overwingvapor/.zip.
+2018-09-07 21:51:08.611 INFO    SOUND: XAudio2: channel layout: FrontLeft FrontRight FrontCenter LowFrequency BackLeft BackRight SideLeft SideRight
+2018-09-07 21:51:08.611 INFO    SOUND: Using SSE FTZ/DAZ mode.
+2018-09-07 21:51:08.616 INFO    DCS: gDescription: "NVIDIA GeForce GTX 1080" gVendorId: 4318 gDeviceId: 7040 gMemory: 8079 MB
+2018-09-07 21:51:08.625 ERROR   EDOBJECTS: Destruction shape not found AVIASHTAB_CRASH
+2018-09-07 21:51:09.016 ERROR   EDCORE: Cant open file: /models/bk_90.edm.json.
+2018-09-07 21:51:09.103 ERROR   EDCORE: Cant open file: /models/rbk_250_ptab_25m_tail.edm.json.
+2018-09-07 21:51:09.148 ERROR   EDCORE: Cant open file: /models/rbk_500_255_ptab_10_5_tail.edm.json.
+2018-09-07 21:51:09.164 ERROR   EDCORE: Cant open file: /models/rbk_250_tail.edm.json.
+2018-09-07 21:51:09.524 INFO    EDCORE: (dDispatcher)enterToState_:1
+2018-09-07 21:51:11.872 INFO    UIBASERENDERER: Cannot load font [D:\Games\SteamLibrary\steamapps\common\DCSWorld\dxgui\skins\fonts\]!
+2018-09-07 21:51:13.178 INFO    LuaNET: Loaded - DCS-SRS GameGUI - Ciribob -1.5.3.5
+2018-09-07 21:51:13.180 INFO    LuaNET: Loaded - DCS-SRS Overlay GameGUI - Ciribob - 1.5.3.5 
+2018-09-07 21:51:13.180 INFO    TACVIEW.GUI: Loading C++ flight data recorder from [C:\Users\Jamius Siam\Saved Games\DCS\Mods\tech\Tacview\bin\]
+2018-09-07 21:51:13.185 INFO    TACVIEW.GUI: Tacview 1.7.2 C++ flight data recorder successfully loaded
+2018-09-07 21:51:13.186 INFO    Dispatcher: //=== END OF INIT ======================================//
+2018-09-07 21:51:13.300 INFO    EDCORE: (dDispatcher)enterToState_:2
+2018-09-07 21:51:13.354 INFO    EDCORE: (dDispatcher)enterToState_:3
+2018-09-07 21:51:13.354 INFO    Lua: Lua CPU usage: metric: average game loading: 33.6018 %
+2018-09-07 21:51:49.588 INFO    NET: Login success.
+2018-09-07 21:51:51.110 INFO    NET: client has started
+2018-09-07 21:52:30.561 INFO    NET: connected to server
+2018-09-07 21:52:30.589 INFO    TACVIEW.DLL: Tacview Flight Data Recorder 1.7.2 Loaded
+2018-09-07 21:52:30.589 INFO    TACVIEW.DLL: Config={bookmarkShortcut=0, clientTelemetryPassword="", compressionLevel=1, dataRecordingEnabled=1, debugModeEnabled=0, hostTelemetryPassword="", playbackDelay=600, profilingPeriod=600, realTimeTelemetryPort=42674, recordClientsSessionsEnabled=0, remoteControlPassword="", remoteControlPort=42675}
+2018-09-07 21:53:53.029 INFO    WORLDGENERAL: loading mission from: "C:\Users\Jamius Siam\Saved Games\DCS\Tracks\Multiplayer\Georgia At War v3.0.16_afternoon-20180908-035230.trk"
+2018-09-07 21:53:53.280 INFO    EDCORE: (dDispatcher)enterToState_:4
+2018-09-07 21:53:53.362 INFO    TERRAIN: lSystem::load()
+2018-09-07 21:53:53.362 INFO    TERRAIN: lSystem::CleanScenes()
+2018-09-07 21:53:53.459 WARNING LOG: 1 duplicate message(s) skipped.
+2018-09-07 21:53:53.459 INFO    EDTERRAIN4: TERRAIN_REVISION = $WCREV$
+2018-09-07 21:53:53.459 INFO    EDTERRAIN4: Open terrain cfg "./Mods/terrains/Caucasus\terrain.cfg.lua"
+2018-09-07 21:53:53.459 INFO    EDTERRAIN4: Build date: 
+2018-09-07 21:53:53.459 INFO    EDTERRAIN4: Texture quality: "min"
+2018-09-07 21:53:53.524 INFO    EDCORE: 0.054633 s  terrain references
+2018-09-07 21:53:53.528 INFO    EDCORE: 0.000009 s  terrain models
+2018-09-07 21:53:53.545 INFO    EDCORE: 0.000183 s  terrain assets
+2018-09-07 21:53:53.664 INFO    EDCORE: 0.086272 s  terrain assets2
+2018-09-07 21:53:54.006 INFO    EDCORE: 0.336716 s  terrain landfile
+2018-09-07 21:53:54.013 INFO    EDCORE: 0.002952 s  terrain surfaceTile
+2018-09-07 21:53:54.028 INFO    EDTERRAIN4: switchTextures (season=1, minTexture=true)
+2018-09-07 21:53:54.049 INFO    EDCORE: 0.021085 s  terrain vfstextures
+2018-09-07 21:53:54.108 INFO    EDCORE: 0.046793 s  terrain scene
+2018-09-07 21:53:54.113 INFO    EDCORE: 0.000005 s  terrain roaddetails
+2018-09-07 21:53:54.128 INFO    EDCORE: 0.000004 s  terrain forest
+2018-09-07 21:53:56.016 INFO    EDCORE: 1.853978 s  terrain routes
+2018-09-07 21:53:56.020 INFO    EDCORE: 0.000116 s  terrain surfacedetails
+2018-09-07 21:53:56.028 INFO    EDCORE: 0.000223 s  terrain blocks
+2018-09-07 21:53:56.069 INFO    EDCORE: 0.000001 s  terrain references
+2018-09-07 21:53:56.344 INFO    EDCORE: 0.282388 s  terrain superficials
+2018-09-07 21:53:56.355 INFO    EDCORE: 0.006752 s  terrain lma
+2018-09-07 21:53:56.362 INFO    EDCORE: 0.000017 s  terrain vectordatasettings
+2018-09-07 21:53:56.919 INFO    EDCORE: 0.524042 s  terrain navgraph
+2018-09-07 21:53:56.926 INFO    EDCORE: 0.002043 s  terrain vti
+2018-09-07 21:53:56.926 INFO    EDTERRAIN4: terrain time: 3.466438 s
+2018-09-07 21:53:56.931 INFO    TERRAIN: lSystem::InitScenes()
+2018-09-07 21:53:56.931 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=1, month=6)
+2018-09-07 21:53:56.933 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() START
+2018-09-07 21:53:56.933 INFO    EDTERRAINGRAPHICS41: loading terrain options: Config/terrain/terrainoptions41.lua
+2018-09-07 21:53:56.934 INFO    EDTERRAINGRAPHICS41: loading terrain shading options: ./Mods/terrains/Caucasus/shadingOptions/Caucasus.lua
+2018-09-07 21:53:56.934 INFO    RENDERER: MetaShaderCache2: [108] from ./Mods/terrains/Caucasus/misc/metacache/dcs.lua
+2018-09-07 21:53:56.967 INFO    RENDERER: loaded [108/108]
+2018-09-07 21:53:56.967 INFO    EDTERRAINGRAPHICS41: Save scene: "C:\Users\Jamius Siam\Saved Games\DCS\failed.ofsh"
+2018-09-07 21:53:56.981 WARNING EDTERRAINGRAPHICS41: failed to open "surfaceDetailsHints" section in terrain config
+2018-09-07 21:53:56.987 INFO    EDTERRAINGRAPHICS41: 0.000011s Loaded reference file "caucasus" buffers: 0
+2018-09-07 21:53:56.987 INFO    EDCORE: 0.000023 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.013 INFO    EDTERRAINGRAPHICS41: 0.017979s Loaded reference file "airfieldslights" buffers: 7
+2018-09-07 21:53:57.013 INFO    EDCORE: 0.017986 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.066 INFO    EDTERRAINGRAPHICS41: 0.037434s Loaded reference file "blockbuildings" buffers: 7
+2018-09-07 21:53:57.066 INFO    EDCORE: 0.037441 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.076 INFO    EDTERRAINGRAPHICS41: 0.005222s Loaded reference file "blocktrees" buffers: 0
+2018-09-07 21:53:57.076 INFO    EDCORE: 0.005229 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.157 INFO    EDTERRAINGRAPHICS41: 0.061962s Loaded reference file "caucasusafbbuildings_new" buffers: 27
+2018-09-07 21:53:57.157 INFO    EDCORE: 0.061969 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.166 INFO    EDTERRAINGRAPHICS41: 0.004546s Loaded reference file "caucasusbridges" buffers: 11
+2018-09-07 21:53:57.166 INFO    EDCORE: 0.004553 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.206 INFO    EDTERRAINGRAPHICS41: 0.027386s Loaded reference file "caucasusobjects" buffers: 0
+2018-09-07 21:53:57.206 INFO    EDCORE: 0.027394 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.216 INFO    EDTERRAINGRAPHICS41: 0.004349s Loaded reference file "communication" buffers: 7
+2018-09-07 21:53:57.216 INFO    EDCORE: 0.004356 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.245 INFO    EDTERRAINGRAPHICS41: 0.000241s Loaded reference file "crashmodels" buffers: 1
+2018-09-07 21:53:57.245 INFO    EDCORE: 0.000248 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.323 INFO    EDTERRAINGRAPHICS41: 0.045048s Loaded reference file "crashmodelsfromedm" buffers: 22
+2018-09-07 21:53:57.323 INFO    EDCORE: 0.045055 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.340 INFO    EDTERRAINGRAPHICS41: 0.011885s Loaded reference file "housedetails" buffers: 9
+2018-09-07 21:53:57.340 INFO    EDCORE: 0.011893 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.347 INFO    EDTERRAINGRAPHICS41: 0.001947s Loaded reference file "industrial" buffers: 7
+2018-09-07 21:53:57.347 INFO    EDCORE: 0.001954 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.393 INFO    EDTERRAINGRAPHICS41: 0.014290s Loaded reference file "misc" buffers: 3
+2018-09-07 21:53:57.393 INFO    EDCORE: 0.014296 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.414 INFO    EDTERRAINGRAPHICS41: 0.002429s Loaded reference file "oilplatforms" buffers: 7
+2018-09-07 21:53:57.414 INFO    EDCORE: 0.002437 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.447 INFO    EDTERRAINGRAPHICS41: 0.002406s Loaded reference file "tuapserefinery" buffers: 6
+2018-09-07 21:53:57.447 INFO    EDCORE: 0.002413 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.481 INFO    EDTERRAINGRAPHICS41: 0.002291s Loaded reference file "vehicles" buffers: 9
+2018-09-07 21:53:57.481 INFO    EDCORE: 0.002299 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.514 INFO    EDTERRAINGRAPHICS41: 0.001881s Loaded reference file "vessels" buffers: 7
+2018-09-07 21:53:57.514 INFO    EDCORE: 0.001887 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.550 INFO    EDTERRAINGRAPHICS41: 0.004872s Loaded reference file "walls" buffers: 2
+2018-09-07 21:53:57.550 INFO    EDCORE: 0.004879 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.584 INFO    EDTERRAINGRAPHICS41: 0.006172s Loaded reference file "americanbeech" buffers: 0
+2018-09-07 21:53:57.584 INFO    EDCORE: 0.006179 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.612 INFO    EDTERRAINGRAPHICS41: 0.000652s Loaded reference file "caucasus_fir" buffers: 0
+2018-09-07 21:53:57.612 INFO    EDCORE: 0.000658 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.646 INFO    EDTERRAINGRAPHICS41: 0.001171s Loaded reference file "cypress_oak" buffers: 0
+2018-09-07 21:53:57.646 INFO    EDCORE: 0.001177 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.679 INFO    EDTERRAINGRAPHICS41: 0.000610s Loaded reference file "european_beech" buffers: 0
+2018-09-07 21:53:57.679 INFO    EDCORE: 0.000617 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.713 INFO    EDTERRAINGRAPHICS41: 0.001453s Loaded reference file "green_ash" buffers: 0
+2018-09-07 21:53:57.713 INFO    EDCORE: 0.001459 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.746 INFO    EDTERRAINGRAPHICS41: 0.000601s Loaded reference file "honey_mesquite" buffers: 0
+2018-09-07 21:53:57.746 INFO    EDCORE: 0.000607 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.779 INFO    EDTERRAINGRAPHICS41: 0.000660s Loaded reference file "italiancypress" buffers: 0
+2018-09-07 21:53:57.779 INFO    EDCORE: 0.000666 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.813 INFO    EDTERRAINGRAPHICS41: 0.000999s Loaded reference file "lombardypoplar" buffers: 0
+2018-09-07 21:53:57.813 INFO    EDCORE: 0.001005 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.846 INFO    EDTERRAINGRAPHICS41: 0.000690s Loaded reference file "mountain_maple" buffers: 0
+2018-09-07 21:53:57.846 INFO    EDCORE: 0.000697 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.879 INFO    EDTERRAINGRAPHICS41: 0.000602s Loaded reference file "norwayspruce" buffers: 0
+2018-09-07 21:53:57.879 INFO    EDCORE: 0.000608 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.912 INFO    EDTERRAINGRAPHICS41: 0.000429s Loaded reference file "shrub" buffers: 0
+2018-09-07 21:53:57.912 INFO    EDCORE: 0.000435 s  landscape4::lReferenceFile
+2018-09-07 21:53:57.912 INFO    EDTERRAINGRAPHICS41: InstanceManager2 is completing initialization... 
+2018-09-07 21:53:57.915 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2018-09-07 21:53:57.915 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41: InstanceManager2 complete initialization: 
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41:   objects:    666
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41:   subObjects: 493
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41:   objectLods: 2911
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41:   objectLodRenderItems: 352
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41:   MAX_LODS_IN_OBJECT:       10
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41:   MAX_SUBOBJECTS_IN_OBJECT: 74
+2018-09-07 21:53:57.916 INFO    EDTERRAINGRAPHICS41:   GEOMETRY BUFFERS: 132
+2018-09-07 21:53:57.945 INFO    EDCORE: 0.000004 s  landscape5::OceanFile
+2018-09-07 21:53:58.054 INFO    EDCORE: 0.076040 s  landscape5::GrassFile
+2018-09-07 21:53:58.059 INFO    EDCORE: 0.000001 s  landscape5::lModels5File
+2018-09-07 21:53:58.598 WARNING LOG: 16 duplicate message(s) skipped.
+2018-09-07 21:53:58.598 INFO    EDTERRAINGRAPHICS41: remapper.deformers is not empty
+2018-09-07 21:53:58.700 INFO    EDTERRAINGRAPHICS41: materialParams[34107]*1536
+2018-09-07 21:53:58.705 INFO    EDCORE: 0.110237 s  landscape5::Surface5File
+2018-09-07 21:53:58.712 INFO    EDTERRAINGRAPHICS41: materialParams[981]*1536
+2018-09-07 21:53:58.712 INFO    EDCORE: 0.002348 s  landscape5::SurfaceTile
+2018-09-07 21:53:58.729 INFO    EDCORE: 0.000955 s  landscape5::Scene5File
+2018-09-07 21:53:58.801 INFO    EDCORE: 0.039630 s  landscape4::lRoutesFile
+2018-09-07 21:53:58.806 INFO    EDCORE: 0.000010 s  landscape4::lSurfaceDetails2File
+2018-09-07 21:53:58.829 INFO    EDTERRAINGRAPHICS41: materialParams[1]*1536
+2018-09-07 21:53:58.829 INFO    EDCORE: 0.000285 s  landscape4::lSuperficialFile
+2018-09-07 21:53:58.897 INFO    EDCORE: 0.035186 s  landscape4::lGeoNamesFile
+2018-09-07 21:53:58.902 INFO    EDCORE: 0.001217 s  landscape5::sup5File
+2018-09-07 21:53:58.928 INFO    EDCORE: 0.000157 s  landscape5::sup5File
+2018-09-07 21:53:58.962 INFO    EDCORE: 0.000001 s  landscape5::navGraph5File
+2018-09-07 21:53:58.962 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::openTerrain() END 2.028366 s
+2018-09-07 21:53:59.968 INFO    DCS: Dispatcher: initial random seed = 7239601
+2018-09-07 21:53:59.968 INFO    DCS: Dispatcher: apply random seed = 7239601
+2018-09-07 21:54:05.586 ERROR   EDCORE: Cant open file: /models/gaz-66.lods.json.
+2018-09-07 21:54:05.675 ERROR   EDCORE: Cant open file: /models/kamaz-fire.lods.json.
+2018-09-07 21:54:05.771 ERROR   EDCORE: Cant open file: /models/ural_4320_b.lods.json.
+2018-09-07 21:54:05.852 ERROR   EDCORE: Cant open file: /models/ural-apa.lods.json.
+2018-09-07 21:54:05.935 ERROR   EDCORE: Cant open file: /models/ural_4320_k.lods.json.
+2018-09-07 21:54:05.996 ERROR   EDCORE: Cant open file: /models/ural_atmz-5.lods.json.
+2018-09-07 21:54:06.062 ERROR   EDCORE: Cant open file: /models/ural_atz-10.lods.json.
+2018-09-07 21:54:06.127 ERROR   EDCORE: Cant open file: /models/atz-60.lods.json.
+2018-09-07 21:54:06.200 ERROR   EDCORE: Cant open file: /models/btr-80.lods.json.
+2018-09-07 21:54:06.350 ERROR   EDCORE: Cant open file: /models/prw-11.edm.json.
+2018-09-07 21:54:06.439 ERROR   EDCORE: Cant open file: /models/rsp-7.edm.json.
+2018-09-07 21:54:06.573 ERROR   EDCORE: Cant open file: /models/gaz-66_searchlight.lods.json.
+2018-09-07 21:54:06.604 ERROR   EDCORE: Cant open file: /models/kamaz-tent.lods.json.
+2018-09-07 21:54:06.682 ERROR   EDCORE: Cant open file: /models/ural_4320_t.lods.json.
+2018-09-07 21:54:06.753 ERROR   EDCORE: Cant open file: /models/ukrytie.lods.json.
+2018-09-07 21:54:06.859 ERROR   EDCORE: Cant open file: /models/rsp_drl-7.edm.json.
+2018-09-07 21:54:06.904 ERROR   EDCORE: Cant open file: /models/rsp_esd-20.edm.json.
+2018-09-07 21:54:06.980 ERROR   EDCORE: Cant open file: /models/ural_4320-31.lods.json.
+2018-09-07 21:54:07.044 ERROR   EDCORE: Cant open file: /models/rsbn.edm.json.
+2018-09-07 21:54:07.090 ERROR   EDCORE: Cant open file: /models/rsbn_gener.edm.json.
+2018-09-07 21:54:07.181 ERROR   EDCORE: Cant open file: /models/air_closedguardhouse_03a.edm.json.
+2018-09-07 21:54:07.230 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2018-09-07 21:54:07.365 ERROR_ONCE DX11BACKEND: texture 'Explode6.tga' not found. Asked from 'EFFECTS'
+2018-09-07 21:54:07.529 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2018-09-07 21:54:07.530 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViews.lua
+2018-09-07 21:54:07.531 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2018-09-07 21:54:07.531 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2018-09-07 21:54:07.859 INFO    Config: netview started
+2018-09-07 21:54:12.233 INFO    NET: ready to start, waiting for sync
+2018-09-07 21:54:12.295 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 0 squares
+2018-09-07 21:54:12.295 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 0 squares
+2018-09-07 21:54:12.295 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.298374 ms
+2018-09-07 21:54:12.418 INFO    Lua: Lua CPU usage: metric: average mission loading: 0.6564 %
+2018-09-07 21:54:12.418 INFO    NET: sync seems good, telling server we are ready
+2018-09-07 21:54:12.780 INFO    NET: MsgClientInit(serverTime=75175.433249, modelTime=11718.978545)
+2018-09-07 21:54:12.780 INFO    NET: local time=194.780840, offset=74980.891389, error=0.010033, samples=86
+2018-09-07 21:54:12.780 INFO    NET: scheduled start at 194.544338
+2018-09-07 21:54:12.780 INFO    NET: MsgClientRun
+2018-09-07 21:54:12.780 INFO    VISUALIZER: CameraIndependedPreload()
+2018-09-07 21:54:18.969 INFO    VISUALIZER: CameraIndependedPreload() finished
+2018-09-07 21:54:19.983 ERROR   EDCORE: Cant open file: /models/farps.lods.json.
+2018-09-07 21:54:20.684 INFO    TACVIEW.EXPORT: Loading C++ flight data recorder from [C:\Users\Jamius Siam\Saved Games\DCS\Mods\tech\Tacview\bin\]
+2018-09-07 21:54:20.687 INFO    TACVIEW.EXPORT: Tacview 1.7.2 C++ flight data recorder successfully loaded
+2018-09-07 21:54:20.815 INFO    VISUALIZER: Preload() camera=19815.188721, 6.700005, 299326.250000 radius=78400.000000
+2018-09-07 21:54:20.815 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(19815.2, 6.70001, 299326), radius=78400
+2018-09-07 21:54:22.944 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 16  released 2
+2018-09-07 21:54:22.944 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.080657 ms
+2018-09-07 21:54:25.270 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 34  released 2
+2018-09-07 21:54:25.270 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.084164 ms
+2018-09-07 21:54:26.966 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.000000 ms
+2018-09-07 21:54:29.637 WARNING LOG: 1 duplicate message(s) skipped.
+2018-09-07 21:54:29.637 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.650000. Update lod buffers.
+2018-09-07 21:54:29.637 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2018-09-07 21:54:29.637 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2018-09-07 21:54:29.799 INFO    GRAPHICSVISTA: Creating Resource "Unicode" of type 1
+2018-09-07 21:54:37.040 INFO    VISUALIZER: Preload() finished
+2018-09-07 21:54:39.266 ERROR   EDCORE: Cant open file: /models/ajs37.lods.json.
+2018-09-07 21:54:39.936 ERROR   EDCORE: Cant open file: /models/av8bna.lods.json.
+2018-09-07 21:54:41.561 ERROR   EDCORE: Cant open file: /models/fa-18c.lods.json.
+2018-09-07 21:54:42.877 ERROR   EDCORE: Cant open file: /models/f-15e.lods.json.
+2018-09-07 21:54:43.774 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:54:44.592 ERROR   EDCORE: Cant open file: /models/kamaz-tent-p_1.edm.json.
+2018-09-07 21:54:47.000 ERROR   Lua::Config: Call error MarkPanel.show:[string "./dxgui/bind/Widget.lua"]:55: Invalid arguments!.
+2018-09-07 21:54:47.058 WARNING LOG: 8 duplicate message(s) skipped.
+2018-09-07 21:54:47.058 ERROR   EDCORE: Cant open file: /models/lha_tarawa.lods.json.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2018-09-07 21:54:47.534 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2018-09-07 21:54:47.534 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2018-09-07 21:54:47.534 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2018-09-07 21:54:47.535 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2018-09-07 21:54:47.535 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2018-09-07 21:54:47.535 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2018-09-07 21:54:47.711 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:54:47.922 ERROR   EDCORE: Cant open file: /models/cvn74.lods.json.
+2018-09-07 21:54:48.138 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2018-09-07 21:54:48.138 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2018-09-07 21:54:48.138 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2018-09-07 21:54:48.138 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2018-09-07 21:54:48.191 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:54:48.372 ERROR   EDCORE: Cant open file: /models/ticonderoga.lods.json.
+2018-09-07 21:54:48.492 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'ticonderoga'
+2018-09-07 21:54:48.492 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'ticonderoga'
+2018-09-07 21:54:48.494 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:54:48.964 ERROR   EDCORE: Cant open file: /models/hemtt.lods.json.
+2018-09-07 21:54:49.192 ERROR   EDCORE: Cant open file: /models/hemtt_fire.edm.json.
+2018-09-07 21:54:49.248 ERROR   EDCORE: Cant open file: /models/soldier_ru_03.lods.json.
+2018-09-07 21:54:50.051 ERROR   EDCORE: Cant open file: /models/m-818.lods.json.
+2018-09-07 21:54:50.150 ERROR   EDCORE: Cant open file: /models/hmmwv_m1025.lods.json.
+2018-09-07 21:54:50.235 ERROR   EDCORE: Cant open file: /models/vulcan.lods.json.
+2018-09-07 21:54:50.390 ERROR   EDCORE: Cant open file: /models/m48.lods.json.
+2018-09-07 21:54:50.931 ERROR   EDCORE: Cant open file: /models/hawk-pu_p_1.edm.json.
+2018-09-07 21:54:50.996 ERROR   EDCORE: Cant open file: /models/hawk-pu.edm.json.
+2018-09-07 21:54:51.037 ERROR   EDCORE: Cant open file: /models/hawk-r.edm.json.
+2018-09-07 21:54:51.118 ERROR   EDCORE: Cant open file: /models/hawk-cv_p_1.edm.json.
+2018-09-07 21:54:51.181 ERROR   EDCORE: Cant open file: /models/hawk-cv.edm.json.
+2018-09-07 21:54:51.274 ERROR   EDCORE: Cant open file: /models/hawk-rls_p_1.edm.json.
+2018-09-07 21:54:51.274 ERROR   EDCORE: Cant open file: /models/hawk-rls.lods.json.
+2018-09-07 21:54:51.416 ERROR   EDCORE: Cant open file: /models/hawk-upr_p_1.edm.json.
+2018-09-07 21:54:51.474 ERROR   EDCORE: Cant open file: /models/hawk-upr.edm.json.
+2018-09-07 21:54:51.531 ERROR   EDCORE: Cant open file: /models/hawk-cwar_p_1.edm.json.
+2018-09-07 21:54:51.589 ERROR   EDCORE: Cant open file: /models/hawk-cwar.edm.json.
+2018-09-07 21:54:51.743 ERROR   EDCORE: Cant open file: /models/patriot-pu.edm.json.
+2018-09-07 21:54:51.874 ERROR   EDCORE: Cant open file: /models/patriot-kp.edm.json.
+2018-09-07 21:54:51.978 ERROR   EDCORE: Cant open file: /models/patriot-rls.edm.json.
+2018-09-07 21:54:52.091 ERROR   EDCORE: Cant open file: /models/patriot-epp.edm.json.
+2018-09-07 21:54:52.213 ERROR   EDCORE: Cant open file: /models/patriot-ecs.edm.json.
+2018-09-07 21:54:52.321 ERROR   EDCORE: Cant open file: /models/patriot-ag.edm.json.
+2018-09-07 21:54:52.384 ERROR   EDCORE: Cant open file: /models/m6.lods.json.
+2018-09-07 21:54:52.514 ERROR   EDCORE: Cant open file: /models/m-1.lods.json.
+2018-09-07 21:54:52.980 ERROR   EDCORE: Cant open file: /models/hmmwv_m973.edm.json.
+2018-09-07 21:54:53.036 ERROR   EDCORE: Cant open file: /models/m-2.lods.json.
+2018-09-07 21:54:53.180 ERROR   EDCORE: Cant open file: /models/m-113.lods.json.
+2018-09-07 21:54:53.458 ERROR   EDCORE: Cant open file: /models/soldier_m249.lods.json.
+2018-09-07 21:54:53.692 ERROR   EDCORE: Cant open file: /models/soldier_m4.lods.json.
+2018-09-07 21:54:54.030 ERROR   EDCORE: Cant open file: /models/1l13.lods.json.
+2018-09-07 21:54:54.133 ERROR   EDCORE: Cant open file: /models/sborka.lods.json.
+2018-09-07 21:54:54.220 ERROR   EDCORE: Cant open file: /models/ural_zu-23.lods.json.
+2018-09-07 21:54:54.358 ERROR   EDCORE: Cant open file: /models/zsu-23-4.lods.json.
+2018-09-07 21:54:54.482 ERROR   EDCORE: Cant open file: /models/t-72.lods.json.
+2018-09-07 21:54:54.715 ERROR   EDCORE: Cant open file: /models/bmd-1.lods.json.
+2018-09-07 21:54:55.118 ERROR   EDCORE: Cant open file: /models/9p31.lods.json.
+2018-09-07 21:54:55.309 ERROR   EDCORE: Cant open file: /models/sa18_com1.lods.json.
+2018-09-07 21:54:55.620 ERROR   EDCORE: Cant open file: /models/mlrs.lods.json.
+2018-09-07 21:54:55.861 ERROR   EDCORE: Cant open file: /models/gepard.lods.json.
+2018-09-07 21:54:56.258 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:54:56.265 ERROR   EDCORE: Cant open file: /models/e-3.lods.json.
+2018-09-07 21:54:56.405 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:54:57.475 ERROR   EDCORE: Cant open file: /models/e-3-oblomok-wing-r.edm.json.
+2018-09-07 21:54:57.536 ERROR   EDCORE: Cant open file: /models/e-3-oblomok-wing-l.edm.json.
+2018-09-07 21:54:57.536 ERROR   EDCORE: Cant open file: /models/il-78m.lods.json.
+2018-09-07 21:54:57.677 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:54:58.382 ERROR   EDCORE: Cant open file: /models/il-78m-oblomok-wing-r.edm.json.
+2018-09-07 21:54:58.440 ERROR   EDCORE: Cant open file: /models/il-78m-oblomok-wing-l.edm.json.
+2018-09-07 21:54:58.502 ERROR   EDCORE: Cant open file: /models/il-78m-oblomok-nose.edm.json.
+2018-09-07 21:54:58.561 ERROR   EDCORE: Cant open file: /models/il-78m-oblomok-tail.edm.json.
+2018-09-07 21:54:58.630 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:54:58.819 ERROR   EDCORE: Cant open file: /models/kc-135-oblomok-wing-r.edm.json.
+2018-09-07 21:54:58.867 ERROR   EDCORE: Cant open file: /models/kc-135-oblomok-wing-l.edm.json.
+2018-09-07 21:54:58.867 ERROR   EDCORE: Cant open file: /models/kc-130.lods.json.
+2018-09-07 21:54:59.270 ERROR   EDCORE: Cant open file: /models/kc-130-oblomok-wing-r.edm.json.
+2018-09-07 21:54:59.305 ERROR   EDCORE: Cant open file: /models/kc-130-oblomok-wing-l.edm.json.
+2018-09-07 21:54:59.305 ERROR   EDCORE: Cant open file: /models/bmp-3.lods.json.
+2018-09-07 21:54:59.711 ERROR   EDCORE: Cant open file: /models/infantry_typed_rpg-16.lods.json.
+2018-09-07 21:54:59.861 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:55:00.458 ERROR   EDCORE: Cant open file: /models/a50-oblomok-wing-r.edm.json.
+2018-09-07 21:55:00.499 ERROR   EDCORE: Cant open file: /models/a50-oblomok-wing-l.edm.json.
+2018-09-07 21:55:00.536 ERROR   EDCORE: Cant open file: /models/a50-oblomok-nose.edm.json.
+2018-09-07 21:55:00.573 ERROR   EDCORE: Cant open file: /models/a50-oblomok-tail.edm.json.
+2018-09-07 21:55:00.574 ERROR   EDCORE: Cant open file: /models/bmp-2.lods.json.
+2018-09-07 21:55:00.710 ERROR   EDCORE: Cant open file: /models/soldier_ru_00.lods.json.
+2018-09-07 21:55:01.251 ERROR   EDCORE: Cant open file: /models/ka-50.lods.json.
+2018-09-07 21:55:02.032 ERROR   EDCORE: Cant open file: /models/ka-50-wing-r.lods.json.
+2018-09-07 21:55:02.419 ERROR   EDCORE: Cant open file: /models/ka-50-wing-l.lods.json.
+2018-09-07 21:55:02.472 ERROR   EDCORE: Cant open file: /models/ka-50-nose.lods.json.
+2018-09-07 21:55:02.609 ERROR   EDCORE: Cant open file: /models/ka-50-tail.lods.json.
+2018-09-07 21:55:02.757 ERROR   EDCORE: Cant open file: /models/ka-50-blade.lods.json.
+2018-09-07 21:55:02.845 ERROR   EDCORE: Cant open file: /models/2-c19.lods.json.
+2018-09-07 21:55:03.099 ERROR   EDCORE: Cant open file: /models/9a35.lods.json.
+2018-09-07 21:55:03.447 ERROR   EDCORE: Cant open file: /models/lau-117.edm.json.
+2018-09-07 21:55:03.571 ERROR   EDCORE: Cant open file: /models/gbu-12.lods.json.
+2018-09-07 21:55:03.848 ERROR   EDCORE: Cant open file: /models/av8bna_gp.edm.json.
+2018-09-07 21:55:03.949 ERROR   EDCORE: Cant open file: /models/agm-122.edm.json.
+2018-09-07 21:55:04.356 ERROR   EDCORE: Cant open file: /models/av-8bna-oblomok-wing-r.edm.json.
+2018-09-07 21:55:04.429 ERROR   EDCORE: Cant open file: /models/av-8bna-oblomok-wing-l.edm.json.
+2018-09-07 21:55:04.508 ERROR   wInfo: negative weight of payload "LAU-115_LAU-127_AIM-9X"
+2018-09-07 21:55:04.526 ERROR   EDCORE: Cant open file: /models/aim-9x.edm.json.
+2018-09-07 21:55:04.592 ERROR   EDCORE: Cant open file: /models/lau-115c+2_lau127.edm.json.
+2018-09-07 21:55:04.691 ERROR   EDCORE: Cant open file: /models/aim-120c.edm.json.
+2018-09-07 21:55:04.778 ERROR   EDCORE: Cant open file: /models/fpu_8a.edm.json.
+2018-09-07 21:55:05.072 ERROR   EDCORE: Cant open file: /models/fa-18c_oblomok_wing_r.edm.json.
+2018-09-07 21:55:05.168 ERROR   EDCORE: Cant open file: /models/fa-18c_oblomok_wing_l.edm.json.
+2018-09-07 21:55:05.589 ERROR   EDCORE: Cant open file: /models/lau-115c.edm.json.
+2018-09-07 21:55:05.666 ERROR   EDCORE: Cant open file: /models/aim-120b.edm.json.
+2018-09-07 21:55:05.846 ERROR   EDCORE: Cant open file: /models/bmp-1.lods.json.
+2018-09-07 21:55:06.407 ERROR   EDCORE: Cant open file: /models/aim-9.edm.json.
+2018-09-07 21:55:06.483 ERROR   EDCORE: Cant open file: /models/aim-7.edm.json.
+2018-09-07 21:55:06.681 ERROR   EDCORE: Cant open file: /models/m-109.lods.json.
+2018-09-07 21:55:06.946 ERROR   EDCORE: Cant open file: /models/f15-ptb.edm.json.
+2018-09-07 21:55:06.989 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:55:07.081 ERROR   EDCORE: Cant open file: /models/f-15-oblomok-wing-r.edm.json.
+2018-09-07 21:55:07.143 ERROR   EDCORE: Cant open file: /models/f-15-oblomok-wing-l.edm.json.
+2018-09-07 21:55:07.143 ERROR   EDCORE: Cant open file: /models/c-130.lods.json.
+2018-09-07 21:55:07.353 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:55:07.687 ERROR   EDCORE: Cant open file: /models/c-130-oblomok-wing-r.edm.json.
+2018-09-07 21:55:07.779 ERROR   EDCORE: Cant open file: /models/c-130-oblomok-wing-l.edm.json.
+2018-09-07 21:55:09.795 ERROR   EDCORE: Cant open file: /models/sorbcija_r.edm.json.
+2018-09-07 21:55:09.846 ERROR   EDCORE: Cant open file: /models/r-73.edm.json.
+2018-09-07 21:55:09.909 ERROR   EDCORE: Cant open file: /models/r-27er.edm.json.
+2018-09-07 21:55:09.963 ERROR   EDCORE: Cant open file: /models/su-27-oblomok-wing-l.edm.json.
+2018-09-07 21:55:10.010 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:55:10.016 ERROR   EDCORE: Cant open file: /models/su-27-oblomok-wing-r.edm.json.
+2018-09-07 21:55:10.516 ERROR   EDCORE: Cant open file: /models/sorbcija_l.edm.json.
+2018-09-07 21:55:11.168 ERROR   EDCORE: Cant open file: /models/a-10-oblomok-wing-r.edm.json.
+2018-09-07 21:55:11.233 ERROR   EDCORE: Cant open file: /models/a-10-oblomok-wing-l.edm.json.
+2018-09-07 21:55:11.305 ERROR   EDCORE: Cant open file: /models/aero-3b.edm.json.
+2018-09-07 21:55:11.410 ERROR   EDCORE: Cant open file: /models/aim-9p5.edm.json.
+2018-09-07 21:55:11.994 ERROR   EDCORE: Cant open file: /models/ajs37-part-nose.edm.json.
+2018-09-07 21:55:12.101 ERROR   EDCORE: Cant open file: /models/ajs37-part-tail.edm.json.
+2018-09-07 21:55:12.205 ERROR   EDCORE: Cant open file: /models/bru_33a.edm.json.
+2018-09-07 21:55:12.232 ERROR   EDCORE: Cant open file: /models/mk-82.lods.json.
+2018-09-07 21:55:12.366 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:55:12.734 ERROR   EDCORE: Cant open file: /models/mi-26.lods.json.
+2018-09-07 21:55:12.922 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:55:13.343 ERROR   EDCORE: Cant open file: /models/mig-21.lods.json.
+2018-09-07 21:55:14.289 ERROR   EDCORE: Cant open file: /models/ptb-800-mig21.lods.json.
+2018-09-07 21:55:14.446 ERROR   EDCORE: Cant open file: /models/aso-2.edm.json.
+2018-09-07 21:55:14.487 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_wing-l-outer.edm.json.
+2018-09-07 21:55:14.588 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_wing-r-outer.edm.json.
+2018-09-07 21:55:14.646 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_wing-l-center.edm.json.
+2018-09-07 21:55:14.703 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_wing-r-center.edm.json.
+2018-09-07 21:55:14.782 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_wing-l-inner.edm.json.
+2018-09-07 21:55:14.868 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_wing-r-inner.edm.json.
+2018-09-07 21:55:14.926 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_tail-center.edm.json.
+2018-09-07 21:55:15.001 ERROR   EDCORE: Cant open file: /models/mig-21bis_damage_rudder-top.edm.json.
+2018-09-07 21:55:15.004 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:55:15.023 ERROR   EDCORE: Cant open file: /models/mk-83.lods.json.
+2018-09-07 21:55:15.405 ERROR   EDCORE: Cant open file: /models/m-2000c.lods.json.
+2018-09-07 21:55:23.309 ERROR   EDCORE: Cant open file: /models/tracer_bullet_red.lods.json.
+2018-09-07 21:55:25.665 ERROR   EDCORE: Cant open file: /models/tracer_bullet_green.lods.json.
+2018-09-07 21:55:33.312 INFO    TACVIEW.DLL: Tacview is not installed on the host
+2018-09-07 21:55:33.651 INFO    TACVIEW.DLL: Recording flight data in [C:\Users\Jamius Siam\Documents\Tacview\Tacview-20180908-035533-DCS-Georgia At War v3.0.16_afternoon.zip.acmi]
+2018-09-07 21:55:33.651 INFO    TACVIEW.DLL: Applying playback delay of 10 minutes to prevent cheating
+2018-09-07 21:55:40.928 ERROR   DX11BACKEND: Can't find precompiled shader model/def_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DAMAGE_BINORMAL_SIZE=2;DAMAGE_NORMAL_MAP_UV=tc0;DAMAGE_TANGENT_SIZE=4;DAMAGE_UV=tc0;DIFFUSE_UV=tc0;DIRECTX11=true;ENABLE_DAMAGE_ARGUMENTS;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_COLOR_UV=tc0;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1;.
+2018-09-07 21:55:40.928 INFO    DX11BACKEND: Compile shader: model/def_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DAMAGE_BINORMAL_SIZE=2;DAMAGE_NORMAL_MAP_UV=tc0;DAMAGE_TANGENT_SIZE=4;DAMAGE_UV=tc0;DIFFUSE_UV=tc0;DIRECTX11=true;ENABLE_DAMAGE_ARGUMENTS;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_COLOR_UV=tc0;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1;
+2018-09-07 21:55:45.041 ALERT   DX11BACKEND: Error: Can't find precompiled shader for effect model/def_material.fx:BINORMAL_SIZE=2;BLEND_MODE=0;DAMAGE_BINORMAL_SIZE=2;DAMAGE_NORMAL_MAP_UV=tc0;DAMAGE_TANGENT_SIZE=4;DAMAGE_UV=tc0;DIFFUSE_UV=tc0;DIRECTX11=true;ENABLE_DAMAGE_ARGUMENTS;NORMAL_MAP_UV=tc0;NORMAL_SIZE=3;SPECULAR_COLOR_UV=tc0;SPECULAR_UV=tc0;TANGENT_SIZE=4;TEXCOORD0_SIZE=2;USE_DCS_DEFERRED=1;.
+Recompilation process will take some time, please wait
+(this situation should not occur on end user PC, if there is no manual shader editing)
+2018-09-07 21:55:45.671 ERROR   EDCORE: Cant open file: /models/tracer_bullet_yellow.lods.json.
+2018-09-07 21:56:41.141 ERROR   EDCORE: Cant open file: /models/pilot_f15_00.lods.json.
+2018-09-07 21:57:01.974 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:57:22.055 INFO    NET: disconnected: 0 
+2018-09-07 21:57:22.056 INFO    NET: disconnected from server
+2018-09-07 21:57:22.058 INFO    NET: client has stopped
+2018-09-07 21:57:22.520 INFO    Config: netview stopped
+2018-09-07 21:57:22.538 INFO    TERRAIN: lSystem::CleanScenes()
+2018-09-07 21:57:22.587 INFO    TACVIEW.DLL: End of flight data recording
+2018-09-07 21:57:22.726 INFO    EDCORE: (dDispatcher)enterToState_:3
+2018-09-07 21:57:24.476 INFO    NET: client has started
+2018-09-07 21:58:41.534 INFO    NET: connected to server
+2018-09-07 21:58:41.556 INFO    TACVIEW.DLL: Tacview Flight Data Recorder 1.7.2 Loaded
+2018-09-07 21:58:41.556 INFO    TACVIEW.DLL: Config={bookmarkShortcut=0, clientTelemetryPassword="", compressionLevel=1, dataRecordingEnabled=1, debugModeEnabled=0, hostTelemetryPassword="", playbackDelay=600, profilingPeriod=600, realTimeTelemetryPort=42674, recordClientsSessionsEnabled=0, remoteControlPassword="", remoteControlPort=42675}
+2018-09-07 21:58:43.420 INFO    WORLDGENERAL: loading mission from: "C:\Users\Jamius Siam\Saved Games\DCS\Tracks\Multiplayer\DynamicCaucasus_2.00_TrueVariableBattlefield _1-20180908-035841.trk"
+2018-09-07 21:58:44.033 INFO    EDCORE: (dDispatcher)enterToState_:4
+2018-09-07 21:58:44.084 INFO    TERRAIN: lSystem::load()
+2018-09-07 21:58:44.084 INFO    TERRAIN: lSystem::CleanScenes()
+2018-09-07 21:58:44.084 INFO    TERRAIN: lSystem::InitScenes()
+2018-09-07 21:58:44.084 INFO    EDTERRAIN4: lTerraDispatchImpl::setDate( day=5, month=1)
+2018-09-07 21:58:44.084 INFO    EDTERRAIN4: switch to season = winter
+2018-09-07 21:58:44.084 INFO    EDTERRAIN4: switchTextures (season=3, minTexture=true)
+2018-09-07 21:58:44.364 INFO    DX11BACKEND: Reloading textures ...
+2018-09-07 21:59:02.010 INFO    DCS: Dispatcher: initial random seed = 7541659
+2018-09-07 21:59:02.010 INFO    DCS: Dispatcher: apply random seed = 7541659
+2018-09-07 21:59:02.041 INFO    WORLDGENERAL: loaded from mission Scripts/World/GPS_GNSS.lua
+2018-09-07 21:59:02.304 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViewsDefault.lua
+2018-09-07 21:59:02.306 INFO    WORLDGENERAL: loaded from mission Config/View/SnapViews.lua
+2018-09-07 21:59:02.306 INFO    WORLDGENERAL: loaded from mission Config/View/View.lua
+2018-09-07 21:59:02.306 INFO    WORLDGENERAL: loaded from mission Config/View/Server.lua
+2018-09-07 21:59:02.337 INFO    Config: netview started
+2018-09-07 21:59:02.351 INFO    NET: ready to start, waiting for sync
+2018-09-07 21:59:02.451 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 222 squares
+2018-09-07 21:59:02.466 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 222 squares
+2018-09-07 21:59:02.466 INFO    EDTERRAINGRAPHICS41: surface5 gc() 63.067397 ms
+2018-09-07 21:59:02.471 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 1.000000. Update lod buffers.
+2018-09-07 21:59:02.471 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2018-09-07 21:59:02.472 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2018-09-07 21:59:02.641 INFO    Lua: Lua CPU usage: metric: average mission loading: 0.2993 %
+2018-09-07 21:59:04.651 INFO    NET: sync seems good, telling server we are ready
+2018-09-07 21:59:04.990 INFO    NET: MsgClientInit(serverTime=8562.796116, modelTime=8506.191940)
+2018-09-07 21:59:04.990 INFO    NET: local time=486.990716, offset=8075.998662, error=0.005565, samples=4
+2018-09-07 21:59:04.990 INFO    NET: scheduled start at 486.803320
+2018-09-07 21:59:04.990 INFO    NET: MsgClientRun
+2018-09-07 21:59:04.990 INFO    VISUALIZER: CameraIndependedPreload()
+2018-09-07 21:59:04.990 INFO    VISUALIZER: CameraIndependedPreload() finished
+2018-09-07 21:59:09.233 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 0 1 squares
+2018-09-07 21:59:09.233 INFO    EDTERRAINGRAPHICS41:     surface5 gc() LOD 1 1 squares
+2018-09-07 21:59:09.233 INFO    EDTERRAINGRAPHICS41: surface5 gc() 0.128877 ms
+2018-09-07 21:59:09.289 INFO    TACVIEW.EXPORT: Loading C++ flight data recorder from [C:\Users\Jamius Siam\Saved Games\DCS\Mods\tech\Tacview\bin\]
+2018-09-07 21:59:09.290 INFO    TACVIEW.EXPORT: Tacview 1.7.2 C++ flight data recorder successfully loaded
+2018-09-07 21:59:10.363 INFO    VISUALIZER: Preload() camera=-4737.000488, 145.000000, 242694.875000 radius=78400.000000
+2018-09-07 21:59:10.363 INFO    EDTERRAINGRAPHICS41: ITerrainGraphicsImpl4::forceLoading(): pos=(-4737, 145, 242695), radius=78400
+2018-09-07 21:59:11.972 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 0: left 10  released 5
+2018-09-07 21:59:11.972 INFO    EDTERRAINGRAPHICS41: surface5 clean up 1.245807 ms
+2018-09-07 21:59:13.638 INFO    EDTERRAINGRAPHICS41: surface5 clean up LOD 1: left 28  released 5
+2018-09-07 21:59:13.638 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.575999 ms
+2018-09-07 21:59:15.168 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.000000 ms
+2018-09-07 21:59:16.553 INFO    EDTERRAINGRAPHICS41: surface5 clean up 0.000292 ms
+2018-09-07 21:59:17.453 INFO    EDTERRAINGRAPHICS41: forestDistanceFactor has been changed to 0.650000. Update lod buffers.
+2018-09-07 21:59:17.453 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectDeclBuffer()
+2018-09-07 21:59:17.454 INFO    EDTERRAINGRAPHICS41: InstanceManager2::updateObjectLodDeclBuffer()
+2018-09-07 21:59:22.048 INFO    VISUALIZER: Preload() finished
+2018-09-07 21:59:22.977 ERROR   EDCORE: Cant open file: /models/su-25t.lods.json.
+2018-09-07 21:59:25.477 ERROR   EDCORE: Cant open file: /models/mi-28.lods.json.
+2018-09-07 21:59:26.252 ERROR   EDCORE: Cant open file: /models/mi-24w.lods.json.
+2018-09-07 21:59:28.261 ERROR   EDCORE: Cant open file: /models/mig-29c.lods.json.
+2018-09-07 21:59:29.678 ERROR   EDCORE: Cant open file: /models/mi-8mt.lods.json.
+2018-09-07 21:59:30.578 ERROR   EDCORE: Cant open file: /models/sa342l.lods.json.
+2018-09-07 21:59:31.260 ERROR   EDCORE: Cant open file: /models/sa342m.lods.json.
+2018-09-07 21:59:31.887 ERROR   EDCORE: Cant open file: /models/sa342minigun.lods.json.
+2018-09-07 21:59:32.464 ERROR   EDCORE: Cant open file: /models/sa342mistral.lods.json.
+2018-09-07 21:59:33.369 ERROR   EDCORE: Cant open file: /models/ab-212.lods.json.
+2018-09-07 21:59:34.350 ERROR   EDCORE: Cant open file: /models/b-1b.lods.json.
+2018-09-07 21:59:37.536 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex01_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:38.022 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex02_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:38.531 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex03_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:38.773 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:59:39.663 WARNING LOG: 30 duplicate message(s) skipped.
+2018-09-07 21:59:39.663 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex04_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:40.235 ERROR   EDCORE: Cant open file: /models/iso_container_small_cargo_dam.edm.json.
+2018-09-07 21:59:40.403 ERROR   EDCORE: Cant open file: /models/hawk-upr_p_1.edm.json.
+2018-09-07 21:59:40.406 ERROR   EDCORE: Cant open file: /models/hawk-pu_p_1.edm.json.
+2018-09-07 21:59:40.409 ERROR   EDCORE: Cant open file: /models/hawk-rls_p_1.edm.json.
+2018-09-07 21:59:40.412 ERROR   EDCORE: Cant open file: /models/hawk-cv_p_1.edm.json.
+2018-09-07 21:59:40.594 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex05_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:40.620 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex06_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:40.767 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex07_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:40.905 ERROR   Lua::Config: Call error MarkPanel.show:[string "./dxgui/bind/Widget.lua"]:55: Invalid arguments!.
+2018-09-07 21:59:40.998 WARNING LOG: 13 duplicate message(s) skipped.
+2018-09-07 21:59:40.998 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2018-09-07 21:59:40.999 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2018-09-07 21:59:40.999 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2018-09-07 21:59:40.999 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2018-09-07 21:59:41.006 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:41.008 ERROR   EDCORE: Cant open file: /models/lha_tarawa.lods.json.
+2018-09-07 21:59:41.011 ERROR_ONCE DX11BACKEND: texture 'mig-29c_tex08_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2018-09-07 21:59:41.018 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2018-09-07 21:59:41.019 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2018-09-07 21:59:41.019 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2018-09-07 21:59:41.019 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2018-09-07 21:59:41.019 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2018-09-07 21:59:41.019 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2018-09-07 21:59:41.019 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2018-09-07 21:59:41.023 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:41.195 ERROR   EDCORE: Cant open file: /models/perry.lods.json.
+2018-09-07 21:59:41.248 ERROR_ONCE DX11BACKEND: texture 'mig-29c_nose_spec' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:41.990 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:41.990 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:42.049 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:42.049 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:42.049 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:42.052 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:42.073 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2018-09-07 21:59:42.073 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2018-09-07 21:59:42.073 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'cvn74'
+2018-09-07 21:59:42.073 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:Stennis
+2018-09-07 21:59:42.076 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_01: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_R_02: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_01: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_R_02: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_R: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_01: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_NOSE_L_02: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_01: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_CENTER_L_02: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_BACK_L: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_NOSE: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_01: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_MIDLE_02: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_01: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_PALUBA_BACK_02: there is no connector with such name.
+2018-09-07 21:59:42.076 ERROR   WEAPONS: Can't get the fire position connector FIRE_RUBKA: there is no connector with such name.
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (POINT_GUN_ZA_BL): unit type = LHA_Tarawa, ws id=2, ln id=1, br id=1
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_01): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=1
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_02): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=2
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_03): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=3
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_04): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=4
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_05): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=5
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_06): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=6
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_07): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=7
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_08): unit type = LHA_Tarawa, ws id=5, ln id=1, br id=8
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_20): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=1
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_21): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=2
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_22): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=3
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_23): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=4
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_24): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=5
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_25): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=6
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_26): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=7
+2018-09-07 21:59:42.077 ERROR   WEAPONS: Invalid connector name (Rocket_Point_27): unit type = LHA_Tarawa, ws id=6, ln id=1, br id=8
+2018-09-07 21:59:42.077 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_9 for unit LHA_Tarawa
+2018-09-07 21:59:42.077 ERROR   wWeaponSystem: invalid connector CENTER_RADAR_10 for unit LHA_Tarawa
+2018-09-07 21:59:42.077 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2018-09-07 21:59:42.077 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'lha_tarawa'
+2018-09-07 21:59:42.077 ERROR   woShip: Network: Carrier start positions number mismatch!!! Unit type:LHA_Tarawa
+2018-09-07 21:59:42.079 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:42.080 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:42.080 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:42.083 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:42.083 ERROR   woShip: connector 'SHIP_NOSE_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:42.083 ERROR   woShip: connector 'SHIP_TAIL_ON_WATERLINE_CENTER_1' is not specified in model 'perry'
+2018-09-07 21:59:42.086 WARNING EFFECTS: BowwaveEmitter: unknown parameter
+2018-09-07 21:59:42.096 ERROR   EDCORE: Cant open file: /models/hmmwv_m1025.lods.json.
+2018-09-07 21:59:42.182 ERROR   EDCORE: Cant open file: /models/m-1.lods.json.
+2018-09-07 21:59:42.212 ERROR   EDCORE: Cant open file: /models/hemtt.lods.json.
+2018-09-07 21:59:42.306 ERROR   EDCORE: Cant open file: /models/hawk-pu.edm.json.
+2018-09-07 21:59:42.312 ERROR   EDCORE: Cant open file: /models/m-818.lods.json.
+2018-09-07 21:59:42.484 ERROR   EDCORE: Cant open file: /models/m1134_p1.edm.json.
+2018-09-07 21:59:42.485 ERROR   EDCORE: Cant open file: /models/m1134.lods.json.
+2018-09-07 21:59:42.779 ERROR   EDCORE: Cant open file: /models/vulcan.lods.json.
+2018-09-07 21:59:42.848 ERROR   EDCORE: Cant open file: /models/m48.lods.json.
+2018-09-07 21:59:42.900 ERROR   EDCORE: Cant open file: /models/hawk-cv.edm.json.
+2018-09-07 21:59:42.923 ERROR   EDCORE: Cant open file: /models/m-2.lods.json.
+2018-09-07 21:59:43.041 ERROR   EDCORE: Cant open file: /models/leopard-2.lods.json.
+2018-09-07 21:59:43.242 ERROR   EDCORE: Cant open file: /models/zil_apa-80.lods.json.
+2018-09-07 21:59:43.455 ERROR   EDCORE: Cant open file: /models/snr-125.lods.json.
+2018-09-07 21:59:43.656 ERROR   EDCORE: Cant open file: /models/bmp-3.lods.json.
+2018-09-07 21:59:43.754 ERROR   EDCORE: Cant open file: /models/zil_p19_radar.lods.json.
+2018-09-07 21:59:43.903 ERROR   EDCORE: Cant open file: /models/9a35.lods.json.
+2018-09-07 21:59:44.287 ERROR   EDCORE: Cant open file: /models/hawk-upr.edm.json.
+2018-09-07 21:59:44.489 ERROR   EDCORE: Cant open file: /models/2p25.lods.json.
+2018-09-07 21:59:44.748 ERROR   EDCORE: Cant open file: /models/zsu-23-4.lods.json.
+2018-09-07 21:59:44.783 ERROR   EDCORE: Cant open file: /models/bmp-2.lods.json.
+2018-09-07 21:59:44.884 ERROR   EDCORE: Cant open file: /models/roland.lods.json.
+2018-09-07 21:59:45.024 ERROR   EDCORE: Cant open file: /models/gepard.lods.json.
+2018-09-07 21:59:45.073 ERROR   EDCORE: Cant open file: /models/hmmwv_m973.edm.json.
+2018-09-07 21:59:45.117 ERROR   EDCORE: Cant open file: /models/roland-rls.lods.json.
+2018-09-07 21:59:45.229 ERROR   EDCORE: Cant open file: /models/hawk-rls.lods.json.
+2018-09-07 21:59:45.297 ERROR   EDCORE: Cant open file: /models/m6.lods.json.
+2018-09-07 21:59:45.439 ERROR   EDCORE: Cant open file: /models/leopard-1a3.lods.json.
+2018-09-07 21:59:45.730 ERROR   EDCORE: Cant open file: /models/challenger-2.edm.json.
+2018-09-07 21:59:46.094 ERROR   EDCORE: Cant open file: /models/9a310m1.lods.json.
+2018-09-07 21:59:46.364 ERROR   EDCORE: Cant open file: /models/9s470m1.lods.json.
+2018-09-07 21:59:46.607 ERROR   EDCORE: Cant open file: /models/t-80ud.lods.json.
+2018-09-07 21:59:46.949 ERROR   EDCORE: Cant open file: /models/9s18m1.lods.json.
+2018-09-07 21:59:47.197 ERROR   EDCORE: Cant open file: /models/9a33.lods.json.
+2018-09-07 21:59:47.702 ERROR   EDCORE: Cant open file: /models/uaz-469.lods.json.
+2018-09-07 21:59:48.139 ERROR   EDCORE: Cant open file: /models/5p73_launch.lods.json.
+2018-09-07 21:59:48.516 ERROR   EDCORE: Cant open file: /models/9p31.lods.json.
+2018-09-07 21:59:48.833 ERROR   EDCORE: Cant open file: /models/leclerc.edm.json.
+2018-09-07 21:59:49.019 ERROR   EDCORE: Cant open file: /models/t-72.lods.json.
+2018-09-07 21:59:49.128 ERROR   EDCORE: Cant open file: /models/patriot-pu.edm.json.
+2018-09-07 21:59:49.237 ERROR   EDCORE: Cant open file: /models/patriot-kp.edm.json.
+2018-09-07 21:59:49.350 ERROR   EDCORE: Cant open file: /models/patriot-ecs.edm.json.
+2018-09-07 21:59:49.417 ERROR   EDCORE: Cant open file: /models/patriot-epp.edm.json.
+2018-09-07 21:59:49.438 ERROR   EDCORE: Cant open file: /models/1l13.lods.json.
+2018-09-07 21:59:49.846 ERROR   EDCORE: Cant open file: /models/zu-23_s.lods.json.
+2018-09-07 21:59:49.907 ERROR_ONCE DX11BACKEND: texture 'UH1_door_c_gray' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:49.911 ERROR_ONCE DX11BACKEND: texture 'UH1_karkas_c_gray' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:49.915 ERROR_ONCE DX11BACKEND: texture 'UH1_karkas2_c_gray' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:49.919 ERROR_ONCE DX11BACKEND: texture 'UH1_panel_c_gray' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:49.923 ERROR_ONCE DX11BACKEND: texture 'UH1_boxs_c_gray' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:49.926 ERROR_ONCE DX11BACKEND: texture 'UH1_dev_2' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 21:59:50.049 ERROR   EDCORE: Cant open file: /models/ural_zu-23.lods.json.
+2018-09-07 21:59:50.523 ERROR   EDCORE: Cant open file: /models/hmmwv_m1043.lods.json.
+2018-09-07 21:59:50.690 ERROR   EDCORE: Cant open file: /models/5p85d.lods.json.
+2018-09-07 21:59:50.896 ERROR   EDCORE: Cant open file: /models/54k6.lods.json.
+2018-09-07 21:59:51.334 ERROR   EDCORE: Cant open file: /models/patriot-rls.edm.json.
+2018-09-07 21:59:52.347 ERROR   EDCORE: Cant open file: /models/m-109.lods.json.
+2018-09-07 21:59:53.590 ERROR   EDCORE: Cant open file: /models/9a331.lods.json.
+2018-09-07 21:59:54.210 ERROR   EDCORE: Cant open file: /models/soldier_stinger.lods.json.
+2018-09-07 21:59:54.532 ERROR   EDCORE: Cant open file: /models/lau-115c.edm.json.
+2018-09-07 21:59:54.542 ERROR   EDCORE: Cant open file: /models/fa-18c_oblomok_wing_r.edm.json.
+2018-09-07 21:59:54.555 ERROR   EDCORE: Cant open file: /models/fa-18c_oblomok_wing_l.edm.json.
+2018-09-07 21:59:54.572 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:59:54.887 ERROR   EDCORE: Cant open file: /models/a50-oblomok-wing-r.edm.json.
+2018-09-07 21:59:54.936 ERROR   EDCORE: Cant open file: /models/a50-oblomok-wing-l.edm.json.
+2018-09-07 21:59:54.976 ERROR   EDCORE: Cant open file: /models/a50-oblomok-nose.edm.json.
+2018-09-07 21:59:55.053 ERROR   EDCORE: Cant open file: /models/a50-oblomok-tail.edm.json.
+2018-09-07 21:59:55.055 ERROR   EDCORE: Cant open file: /models/f-15-oblomok-wing-r.edm.json.
+2018-09-07 21:59:55.056 ERROR   EDCORE: Cant open file: /models/f-15-oblomok-wing-l.edm.json.
+2018-09-07 21:59:55.080 ERROR   EDCORE: Cant open file: /models/2c6m.lods.json.
+2018-09-07 21:59:55.341 ERROR   EDCORE: Cant open file: /models/lau-115c+2_lau127.edm.json.
+2018-09-07 21:59:55.344 ERROR   EDCORE: Cant open file: /models/bru_33a.edm.json.
+2018-09-07 21:59:55.528 ERROR   EDCORE: Cant open file: /models/mi-8mt_wing_r.edm.json.
+2018-09-07 21:59:55.581 ERROR   EDCORE: Cant open file: /models/mi-8mt_wing_l.edm.json.
+2018-09-07 21:59:55.678 ERROR   EDCORE: Cant open file: /models/mi-8mt_oblomok_hvost.edm.json.
+2018-09-07 21:59:55.773 ERROR   EDCORE: Cant open file: /models/mi-8mt_rotor.edm.json.
+2018-09-07 21:59:56.128 ERROR   EDCORE: Cant open file: /models/x-25mp.edm.json.
+2018-09-07 21:59:56.234 ERROR   EDCORE: Cant open file: /models/su-25t-wing-r.lods.json.
+2018-09-07 21:59:56.349 ERROR   EDCORE: Cant open file: /models/su-25t-wing-l.lods.json.
+2018-09-07 21:59:56.407 ERROR   EDCORE: Cant open file: /models/su-25t-nose.lods.json.
+2018-09-07 21:59:56.506 ERROR   EDCORE: Cant open file: /models/su-25t-tail.lods.json.
+2018-09-07 21:59:57.244 ERROR   EDCORE: Cant open file: /models/sa342-blade.edm.json.
+2018-09-07 21:59:57.312 ERROR   EDCORE: Cant open file: /models/iso_container_small_cargo.edm.json.
+2018-09-07 21:59:57.385 ERROR   Dispatcher: lua_pcall failed,?:0: attempt to index field '?' (a nil value)
+2018-09-07 21:59:57.600 WARNING LOG: 1 duplicate message(s) skipped.
+2018-09-07 21:59:57.600 ERROR   EDCORE: Cant open file: /models/r-27t.edm.json.
+2018-09-07 21:59:57.657 ERROR   EDCORE: Cant open file: /models/r-27r.edm.json.
+2018-09-07 21:59:57.829 ERROR   EDCORE: Cant open file: /models/su-33-oblomok-wing-r.edm.json.
+2018-09-07 21:59:57.908 ERROR   EDCORE: Cant open file: /models/su-33-oblomok-wing-l.edm.json.
+2018-09-07 21:59:57.909 ERROR   EDCORE: Cant open file: /models/ka-50-wing-r.lods.json.
+2018-09-07 21:59:57.993 ERROR   EDCORE: Cant open file: /models/ka-50-wing-l.lods.json.
+2018-09-07 21:59:58.252 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\tunguska': 121662 frames, 2 channel(s)
+2018-09-07 21:59:58.265 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\apu_ai9v_start': 294026 frames, 2 channel(s)
+2018-09-07 21:59:58.265 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\apu_ai9v_shutdown': 579696 frames, 2 channel(s)
+2018-09-07 21:59:58.266 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\apu_ai9v_tone': 645540 frames, 2 channel(s)
+2018-09-07 21:59:58.266 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\apu_ai9v_noise': 490984 frames, 2 channel(s)
+2018-09-07 21:59:58.274 ERROR   SOUND: can't load wave: "effects\aircrafts\mi-8mtv2\cockpit\pump2"
+2018-09-07 21:59:58.274 ERROR   SOUND: can't load wave: "effects\aircrafts\mi-8mtv2\cockpit\pump1"
+2018-09-07 21:59:58.274 ERROR   SOUND: can't load wave: "effects\aircrafts\mi-8mtv2\cockpit\pump2_end"
+2018-09-07 21:59:58.274 ERROR   SOUND: can't load wave: "effects\aircrafts\mi-8mtv2\cockpit\pump1_end"
+2018-09-07 21:59:58.300 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\fuelshut_off_left': 108019 frames, 2 channel(s)
+2018-09-07 21:59:58.314 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\fuelshut_off_right': 120744 frames, 2 channel(s)
+2018-09-07 21:59:58.346 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\enginetv3117l': 839809 frames, 2 channel(s)
+2018-09-07 21:59:58.357 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\enginetv3117r': 839824 frames, 2 channel(s)
+2018-09-07 21:59:58.369 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\enginetv3117start': 796946 frames, 2 channel(s)
+2018-09-07 21:59:58.377 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\mi8reductor': 434981 frames, 2 channel(s)
+2018-09-07 21:59:58.398 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\rotormi8mtv2': 882082 frames, 2 channel(s)
+2018-09-07 21:59:58.406 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\rotormi8_dyn': 882159 frames, 2 channel(s)
+2018-09-07 21:59:58.429 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\rotormi8_high': 343936 frames, 2 channel(s)
+2018-09-07 21:59:58.447 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\mi8tailrotor': 356600 frames, 2 channel(s)
+2018-09-07 21:59:58.465 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\mi8tailrotorside': 366748 frames, 2 channel(s)
+2018-09-07 21:59:58.481 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\mi8whistle': 542185 frames, 2 channel(s)
+2018-09-07 21:59:58.515 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\yakb': 303254 frames, 2 channel(s)
+2018-09-07 21:59:58.541 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\yakb_end': 90824 frames, 2 channel(s)
+2018-09-07 21:59:58.569 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\gshg': 231577 frames, 2 channel(s)
+2018-09-07 21:59:58.581 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\gshg_end': 82996 frames, 2 channel(s)
+2018-09-07 21:59:58.599 ERROR   SOUND: can't alloc memory for 'effects\weapons\ags17_1l': 227733 frames, 2 channel(s)
+2018-09-07 21:59:58.631 ERROR   SOUND: can't alloc memory for 'effects\weapons\ags17_1r': 227733 frames, 2 channel(s)
+2018-09-07 21:59:58.644 ERROR   SOUND: can't alloc memory for 'effects\weapons\ags17_2r': 227733 frames, 2 channel(s)
+2018-09-07 21:59:58.686 ERROR   SOUND: can't alloc memory for 'effects\weapons\kord': 124672 frames, 2 channel(s)
+2018-09-07 21:59:58.693 ERROR   SOUND: can't alloc memory for 'effects\weapons\kord_end': 130911 frames, 2 channel(s)
+2018-09-07 21:59:58.761 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\mi8_cargodoor_open': 174778 frames, 2 channel(s)
+2018-09-07 21:59:58.773 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\mi8_cargodoor_close': 157896 frames, 2 channel(s)
+2018-09-07 21:59:58.821 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\ko-50': 340608 frames, 2 channel(s)
+2018-09-07 21:59:58.835 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\ko-50_end': 379121 frames, 2 channel(s)
+2018-09-07 21:59:58.856 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\airflow': 311880 frames, 2 channel(s)
+2018-09-07 21:59:58.872 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\jumpalarm': 320757 frames, 2 channel(s)
+2018-09-07 21:59:58.887 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\fpp-7m': 362738 frames, 2 channel(s)
+2018-09-07 21:59:58.915 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\fpp-7m_roll': 306157 frames, 2 channel(s)
+2018-09-07 21:59:58.931 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\sparkplugs': 74478 frames, 2 channel(s)
+2018-09-07 21:59:58.948 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\wiper_l_end': 73295 frames, 2 channel(s)
+2018-09-07 21:59:58.981 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\wiper_l': 308752 frames, 2 channel(s)
+2018-09-07 21:59:59.042 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\wiper_r_end': 73295 frames, 2 channel(s)
+2018-09-07 21:59:59.057 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\mi-8mtv2\wiper_r': 308752 frames, 2 channel(s)
+2018-09-07 21:59:59.058 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\helicopterwind': 437074 frames, 2 channel(s)
+2018-09-07 21:59:59.071 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\su-25\canopy\canopyopen': 119552 frames, 2 channel(s)
+2018-09-07 21:59:59.078 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\su-25\canopy\canopyclose': 122640 frames, 2 channel(s)
+2018-09-07 21:59:59.078 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su25frontengine': 386576 frames, 2 channel(s)
+2018-09-07 21:59:59.079 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su25backengine': 306809 frames, 2 channel(s)
+2018-09-07 21:59:59.079 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su25aroundengine': 282830 frames, 2 channel(s)
+2018-09-07 21:59:59.079 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\planechute': 75351 frames, 2 channel(s)
+2018-09-07 21:59:59.080 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\planechuterumble': 344046 frames, 2 channel(s)
+2018-09-07 21:59:59.081 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\gsh301': 147658 frames, 2 channel(s)
+2018-09-07 21:59:59.081 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\gsh301end': 179596 frames, 2 channel(s)
+2018-09-07 21:59:59.089 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\sa342engine': 88194 frames, 2 channel(s)
+2018-09-07 21:59:59.116 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\sa342rotor': 583643 frames, 2 channel(s)
+2018-09-07 21:59:59.117 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\su-27\canopy\canopyopen': 296097 frames, 2 channel(s)
+2018-09-07 21:59:59.118 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\su-27\canopy\canopyclose': 225703 frames, 2 channel(s)
+2018-09-07 21:59:59.119 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\su-27\apu1': 1655264 frames, 2 channel(s)
+2018-09-07 21:59:59.120 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\su-27\apu2': 1602648 frames, 2 channel(s)
+2018-09-07 21:59:59.121 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su27aroundengine2': 418667 frames, 2 channel(s)
+2018-09-07 21:59:59.121 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su27frontengine': 392272 frames, 2 channel(s)
+2018-09-07 21:59:59.121 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su27frontengine2': 550891 frames, 2 channel(s)
+2018-09-07 21:59:59.121 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su27backengine': 675211 frames, 2 channel(s)
+2018-09-07 21:59:59.122 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\su27aroundengine': 280582 frames, 2 channel(s)
+2018-09-07 21:59:59.122 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\rotorka50noise': 264483 frames, 1 channel(s)
+2018-09-07 21:59:59.122 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\rotorka50dyn': 403134 frames, 2 channel(s)
+2018-09-07 21:59:59.122 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\rotorka50hi': 202849 frames, 1 channel(s)
+2018-09-07 21:59:59.123 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\ka-50\ka50_dooropen': 59821 frames, 2 channel(s)
+2018-09-07 21:59:59.123 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\ka-50\ka50_doorclose': 129090 frames, 2 channel(s)
+2018-09-07 21:59:59.123 ERROR   SOUND: can't alloc memory for 'effects\weapons\automatic\gun2a42low': 44071 frames, 1 channel(s)
+2018-09-07 21:59:59.124 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\ka50aroundengine': 481197 frames, 2 channel(s)
+2018-09-07 21:59:59.125 ERROR   SOUND: can't alloc memory for 'effects\aircrafts\engines\rotorka50': 403134 frames, 2 channel(s)
+2018-09-07 21:59:59.383 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/f-5e-3/us aggressor vmft-401 02 2011/vmft-401 pilot_f-5e3.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.383 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/f-5e-3/us aggressor vfc-13 01/vfc-13_01_f-5e3_wing.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.383 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/f-5e-3/us aggressor vfc-13 01/vfc-13_01_f-5e3_tail.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.383 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/f-5e-3/us aggressor vfc-13 01/vfc-13_01_f-5e3_white_helmet.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.511 ERROR   DX11BACKEND: Can't load image '/textures//liveries/l-39za/splinter camo desert/l39za_desert.dds'. Reason: The request is not supported.
+2018-09-07 21:59:59.523 ERROR   DX11BACKEND: Can't load image '/textures//liveries/l-39za/splinter camo desert/l39za_spec_splinter.dds'. Reason: The request is not supported.
+2018-09-07 21:59:59.531 ERROR   DX11BACKEND: Can't load image '/textures//liveries/l-39za/splinter camo desert/l-39za_parts.dds'. Reason: The request is not supported.
+2018-09-07 21:59:59.599 ERROR   DX11BACKEND: Can't load image '/textures/f-86f_main_dif.dds'. Reason: The request is not supported.
+2018-09-07 21:59:59.692 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/l-39za/splinter camo desert/pilot_l39_desert.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.795 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_dif_fuz_front_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.841 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_dif_fuz_rear_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.876 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_dif_l_wing_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.916 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_dif_r_wing_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 21:59:59.945 ERROR   DX11BACKEND: Can't load image '/textures//liveries/tf-51d/tf-51 gunfighter/p51d_nrml_gunfighter_fuz_front.dds'. Reason: The request is not supported.
+2018-09-07 22:00:00.006 ERROR   DX11BACKEND: Can't load image '/textures//liveries/tf-51d/tf-51 gunfighter/p51d_nrml_fuz_rear_gunfighter.dds'. Reason: The request is not supported.
+2018-09-07 22:00:00.018 ERROR   DX11BACKEND: Can't load image '/textures//liveries/tf-51d/tf-51 gunfighter/p51d_nrml_gunfighter_l_wing.dds'. Reason: The request is not supported.
+2018-09-07 22:00:00.029 ERROR   DX11BACKEND: Can't load image '/textures//liveries/tf-51d/tf-51 gunfighter/p51d_nrml_gunfighter_r_wing.dds'. Reason: The request is not supported.
+2018-09-07 22:00:00.068 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_spec_fuz_front_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 22:00:00.117 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_spec_fuz_rear_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 22:00:00.152 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_spec_l_wing_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 22:00:00.187 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_spec_r_wing_gunfighter.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 22:00:00.248 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_dif_fuz_rear_gunfighter_roughmet.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 22:00:00.276 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_dif_l_wing_gunfighter_roughmet.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 22:00:00.303 ERROR   DX11BACKEND: Failed to create shader resource view for /textures//liveries/tf-51d/tf-51 gunfighter/p51d_dif_r_wing_gunfighter_roughmet.dds. Reason: Not enough memory resources are available to complete this operation.
+2018-09-07 22:00:00.337 ERROR_ONCE DX11BACKEND: texture '/liveries/tf-51d/tf-51 gunfighter/empty' not found. Asked from 'GRAPHICSVISTA'
+2018-09-07 22:00:00.352 ERROR   DX11BACKEND: Can't load image '/textures//liveries/fa-18c_hornet/vmfa-312 high visibility/f18c_1_diff_312__high visibility.dds'. Reason: The request is not supported.
+2018-09-07 22:00:00.356 ERROR   DX11BACKEND: Can't load image '/textures//liveries/fa-18c_hornet/vmfa-312 high visibility/f18c_2_diff_312__high visibility.dds'. Reason: The request is not supported.
+2018-09-07 22:00:00.411 ERROR   DX11BACKEND: Can't load image '/textures//liveries/fa-18c_hornet/vmfa-312 high visibility/fpu_8a_312_high visibility.dds'. Reason: The request is not supported.
